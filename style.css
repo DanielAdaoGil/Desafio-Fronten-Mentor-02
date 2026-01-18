@@ -16,20 +16,20 @@
 
 body{
     background-color: hsla(47, 88%, 63%);
+    min-height: 100svh;    
+    
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
 }
 
 main{
     background-color: hsl(0, 0%, 100%);
-    width: 30%;
-    height: auto;
-    margin-top: 5%;
-    padding: 20px;
+    width: 17rem;
+    padding: 1rem;
     border: 1px solid black;
     box-shadow: 5px 5px 1px 1px black;
-    border-radius: 15px;
+    border-radius: 0.5rem;
     display: flex;
     align-items: start;
     flex-flow: column;
@@ -37,58 +37,54 @@ main{
 
 main img{
     width: 100%;
-    border-radius: 15px;
+    height: auto;
+    border-radius: 0.3rem;
 }
 
 main h2{
     background-color: hsla(47, 88%, 63%);
     font-family: Figtree-ExtraBold;
-    font-size: 15px;
-    font-weight: 800px;
-    padding: 4px 10px;
-    margin-top: 10px;
-    border-radius: 5px;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    margin-top: 1rem;
+    border-radius: 0.1rem;
 }
 
 main h3{
     font-family: Figtree;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
     color: hsl(0, 0%, 7%);
 }
 
 main h1{
     font-family: Figtree-ExtraBold;
-    font-weight: 800px;
-    margin-top: 15px;
+    font-size: 1em;
+    margin-top: 1em;
 }
 
 main p{
     font-family: Figtree;
+    font-size: 0.8rem;
     color: hsl(0, 0%, 42%);
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 main .avatar{
     display: flex;
     flex-flow: row;
-    justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    margin-top: 0.3rem;
 }
 
 main .avatar img{
-    height: 50px;
-    width: 50px;
+    height: 2rem;
+    width: 2rem;
 }
 
 main .avatar p{
     font-family: Figtree-ExtraBold;
-    margin-left: 10px;
+    margin-left: 0.5rem;
     color: hsl(0, 0%, 7%);
-}
-
-
-.attribution{
-    margin-top: 10px;
 }
 
